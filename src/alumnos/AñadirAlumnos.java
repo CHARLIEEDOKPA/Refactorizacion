@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class AñadirAlumnos {
 
     /**
-     *
+     * Modificado
      * @param alum Sera la tabla de alumnos
      * @param i Sera el indice para añadir los alumnos a la tabla
      * @param entrada Sera para escribir en teclado;
