@@ -10,16 +10,18 @@ import java.util.Scanner;
 /**
  *
  * @author usuario
+ * @version 1
  */
-public class AñadirAlumnos {
-    
-     /**
+public class AnyadirAlumnos {
+
+    /**
      * Modificado fdsffsdfsd
-     * @param alum Sera la tabla de alumnos
+     *
+     * @param alumnos Sera la tabla de alumnos
      * @param i Sera el indice para añadir los alumnos a la tabla
      * @param entrada Sera para escribir en teclado;
      */
-    static void añadirAlumno(Alumno[] alum, int i, Scanner entrada) {
+    static void añadirAlumno(Alumno[] alumnos, int i, Scanner entrada) {
         String nombreIntroducido;
         double notaIntroducida;
         System.out.println("Alumno " + i);
@@ -30,7 +32,7 @@ public class AñadirAlumnos {
             notaIntroducida = Double.parseDouble(entrada.nextLine());
         } while (notaIntroducida > 10 || notaIntroducida < 0);
 
-        alum[i] = new Alumno(nombreIntroducido, notaIntroducida);
+        alumnos[i] = new Alumno(nombreIntroducido, notaIntroducida);
     }
-    
+
 }
