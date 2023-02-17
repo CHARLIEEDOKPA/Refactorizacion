@@ -15,7 +15,7 @@ public class Alumnos {
         Scanner entrada = new Scanner(System.in);
         double sumaDeMedias = 0;
 
-        // Define la estructura, un array de 5 alumnos
+        // Define la estructura, un array de 5 alumnoss
         // pero no crea los objetos
         Alumno[] alumnos = new Alumno[5];
 
